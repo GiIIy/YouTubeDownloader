@@ -13,18 +13,26 @@ class YoutubeDownloader:
         
         self.link_label = tk.Label(self.window, text = "Download Link")
         self.link_label.grid(column = 0, row = 0)
+        
         self.name_label = tk.Label(self.window, text = "Save File as")
         self.name_label.grid(column = 0, row = 1)
+        
         self.path_label = tk.Label(self.window, text = "Save File Path")
         self.path_label.grid(column = 0, row = 2)
 
 
+        
+        
+        
         self.link_entry = tk.Entry(master = self.window, width = 40)
         self.link_entry.grid(column = 1, row = 0)
+        
         self.name_entry = tk.Entry(master= self.window, width = 40)
         self.name_entry.grid(column = 1, row = 1)
+        
         self.path_entry = tk.Entry(master = self.window, width = 40 )
         self.path_entry.grid(column = 1, row = 2)
+        
         self.download_button = tk.Button(self.window, text = "Download", command = self.get_link)
         self.download_button.grid(column = 1, row = 4)
 
