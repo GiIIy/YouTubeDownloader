@@ -2,4 +2,4 @@
 Download Youtube Videos
 
 A python program utilising Tkinter and pytube
-Download YT Videos from link, any suggestions are welcomed
+To Download YT Videos using a link, any suggestions are welcomed
